@@ -1,0 +1,23 @@
+{
+  "name": "http-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurKova/http-1.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "homepage": "https://github.com/ArthurKova/http-1",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {}
+}
